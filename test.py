@@ -1,7 +1,6 @@
 import pytest
 from main import BooksCollector
 
-
 def test_add_new_book_negative_result(self):
     book = BooksCollector()
     book.add_new_book('Гарри Поттер')
